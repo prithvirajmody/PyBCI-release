@@ -4,33 +4,38 @@ Official public download home for **PyBCI**, the interactive development
 workspace for brain–computer interfaces by
 [Efferent Systems](https://efferent.systems).
 
-This repository hosts the **signed, packaged desktop application** only. The
-PyBCI source code lives in a separate private repository; the builds here bundle
-the PyBCI runtime and do **not** require Python.
+This repository hosts the **packaged desktop application** only. The PyBCI source
+code lives in a separate private repository; the builds here bundle the PyBCI
+runtime and do **not** require Python.
+
+> ## ⚠️ Early access
+>
+> PyBCI is currently in **early access**. Builds are **not yet code-signed**, so
+> Windows and macOS may show an "unknown publisher", "unidentified developer", or
+> SmartScreen-style warning. **Only continue if you received the download link
+> directly from the PyBCI team.** Apple/Windows/GPG signing certificates are being
+> provisioned; the fully signed 1.0.0 production release will follow.
 
 ## Download
 
-- **Latest release:** [github.com/prithvirajmody/PyBCI-release/releases/latest](https://github.com/prithvirajmody/PyBCI-release/releases/latest)
-- Or use the download page on the website: [efferent.systems/download](https://efferent.systems/download)
-
-Each release provides x64 builds for Windows, macOS, and Linux, plus
-`SHA-256SUMS` and platform signatures.
+Go to the [latest early-access release](https://github.com/prithvirajmody/PyBCI-release/releases)
+and download the file for your operating system:
 
 | Platform | Artifact |
 |----------|----------|
 | Windows  | `PyBCI-<version>-windows-x64.zip` |
 | macOS    | `PyBCI-<version>-macos-x64.dmg` (or `.zip`) |
-| Linux    | `PyBCI-<version>-linux-x64.tar.gz` (+ `.asc`) |
+| Linux    | `PyBCI-<version>-linux-x64.tar.gz` |
 
 ## Install
 
 See [INSTALL.md](INSTALL.md) for per-OS install and first-launch steps.
 
-## Verify before you run
+## Optional verification
 
-Download only from this repository's Releases page or the official website.
-Always verify the SHA-256 checksum and the platform signature before opening an
-artifact — see [VERIFY.md](VERIFY.md).
+Each release includes `SHA-256SUMS`. Most early-access users do not need to
+verify manually. Technical users can confirm a download matches the published
+checksum — see [VERIFY.md](VERIFY.md).
 
 ## Support
 
