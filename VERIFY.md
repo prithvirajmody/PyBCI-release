@@ -69,5 +69,5 @@ gpg --verify SHA-256SUMS.asc SHA-256SUMS
 Do not run the artifact. Re-download from the official
 [Releases page](https://github.com/prithvirajmody/PyBCI-release/releases) over a
 trusted network, and if it still fails, report it to
-[hello@efferent.systems](mailto:hello@efferent.systems?subject=PyBCI%20signature%20verification)
+[info@efferent.systems](mailto:info@efferent.systems?subject=PyBCI%20signature%20verification)
 with the artifact name, version, and the exact command output.
