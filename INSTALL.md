@@ -26,6 +26,25 @@ provider key is optional; an OpenAI key can be entered during first launch.
    unsigned early-access build. Only continue (More info → Run anyway) if you
    received this from the PyBCI team.
 
+### Windows troubleshooting
+
+If launch fails with an error mentioning TensorFlow or
+`DLL load failed while importing _pywrap_tensorflow_internal`:
+
+1. Install the latest
+   [Microsoft Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+   and launch PyBCI again.
+2. PyBCI requires a CPU with AVX instructions. Mainstream Intel and AMD
+   processors from roughly 2012 onward have AVX, but some Celeron, Pentium,
+   and Atom models do not and cannot run PyBCI.
+3. Extract the ZIP to a short path (for example `C:\PyBCI`), or enable Windows
+   long-path support: run `regedit`, set
+   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled`
+   to `1`, and reboot.
+
+If it still fails, email us the contents of the `.service.log` file in your
+projects directory (default `Desktop\PyBCI-Projects`).
+
 ## 3. macOS
 
 1. Download `PyBCI-<version>-macos-x64.dmg` (or the `.zip` if the notes direct
