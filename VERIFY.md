@@ -37,5 +37,5 @@ Each output line should read `OK`, or the hash should match the matching line in
 Do not run the artifact. Re-download from the official
 [Releases page](https://github.com/prithvirajmody/PyBCI-release/releases) over a
 trusted network, and if it still fails, report it to
-[hello@efferent.systems](mailto:hello@efferent.systems?subject=PyBCI%20checksum)
+[hello@efferentsystems.com](mailto:hello@efferentsystems.com?subject=PyBCI%20checksum)
 with the artifact name, version, and the exact command output.

@@ -98,6 +98,6 @@ early-access users.
 
 ## 9. Troubleshooting / help
 
-Email [hello@efferent.systems](mailto:hello@efferent.systems?subject=PyBCI%20help)
+Email [hello@efferentsystems.com](mailto:hello@efferentsystems.com?subject=PyBCI%20help)
 with your PyBCI version, OS, the failing step, and the exact error text. Do not
 include API keys, secrets, or private recording data.

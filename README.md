@@ -2,7 +2,7 @@
 
 Official public download home for **PyBCI**, the interactive development
 workspace for brain–computer interfaces by
-[Efferent Systems](https://efferent.systems).
+[Efferent Systems](https://efferentsystems.com).
 
 This repository hosts the **packaged desktop application** only. The PyBCI source
 code lives in a separate private repository; the builds here bundle the PyBCI
@@ -39,7 +39,7 @@ checksum — see [VERIFY.md](VERIFY.md).
 
 ## Support
 
-Questions or problems: [hello@efferent.systems](mailto:hello@efferent.systems?subject=PyBCI%20help).
+Questions or problems: [hello@efferentsystems.com](mailto:hello@efferentsystems.com?subject=PyBCI%20help).
 When reporting an issue, include the PyBCI version, your operating system, the
 step that failed, and the exact error text. Do not include API keys, secrets, or
 private recording data.
