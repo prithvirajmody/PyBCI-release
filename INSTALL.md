@@ -11,7 +11,9 @@ required. Download it from the
 
 ## 1. Before downloading
 
-PyBCI release artifacts support x64 Windows, macOS, and Linux. Allow enough disk
+The currently published early-access artifacts support x64 Windows and Linux,
+and arm64 macOS (Apple Silicon). An Intel macOS build is not included in the
+current release assets. Allow enough disk
 space for the application, projects, recordings, and generated models. Install
 the vendor drivers required by your EEG board before connecting hardware. An AI
 provider key is optional; an OpenAI key can be entered during first launch.
@@ -47,7 +49,7 @@ projects directory (default `Desktop\PyBCI-Projects`).
 
 ## 3. macOS
 
-1. Download `PyBCI-<version>-macos-x64.dmg` (or the `.zip` if the notes direct
+1. Download `PyBCI-<version>-macos-arm64.dmg` (or the `.zip` if the notes direct
    you to it).
 2. Open the DMG and copy `PyBCI.app` to Applications.
 3. Launch `PyBCI.app`. If macOS says it "cannot be opened because the developer
