@@ -1,4 +1,6 @@
-# PyBCI — Releases
+# PyBCI
+
+**Desktop workspace for EEG acquisition, preprocessing, visualization, and model training.**
 
 Official public download home for **PyBCI**, the interactive development
 workspace for brain–computer interfaces by
@@ -16,6 +18,12 @@ runtime and do **not** require Python.
 > directly from the PyBCI team.** Apple/Windows/GPG signing certificates are being
 > provisioned; the fully signed 1.0.0 production release will follow.
 
+## What PyBCI is for
+
+PyBCI brings brain–computer interface workflows into one desktop application: connect or import signals, configure processing steps, inspect results, and train models. The application is built by Efferent Systems; this repository provides public downloads, installation guidance, and support.
+
+**Distribution:** public early-access binaries; source code is maintained privately. The latest published build in this repository is `v1.0.0-ea.2`. Early access is distinct from a signed stable release.
+
 ## Download
 
 Go to the [latest early-access release](https://github.com/prithvirajmody/PyBCI-release/releases)
@@ -24,7 +32,7 @@ and download the file for your operating system:
 | Platform | Artifact |
 |----------|----------|
 | Windows  | `PyBCI-<version>-windows-x64.zip` |
-| macOS    | `PyBCI-<version>-macos-x64.dmg` (or `.zip`) |
+| macOS (Apple Silicon) | `PyBCI-<version>-macos-arm64.dmg` (or `.zip`) |
 | Linux    | `PyBCI-<version>-linux-x64.tar.gz` |
 
 ## Install
@@ -43,3 +51,7 @@ Questions or problems: [hello@efferentsystems.com](mailto:hello@efferentsystems.
 When reporting an issue, include the PyBCI version, your operating system, the
 step that failed, and the exact error text. Do not include API keys, secrets, or
 private recording data.
+
+## Project background
+
+[Prithviraj Mody's engineering portfolio](https://github.com/prithvirajmody/prithvirajmody.github.io#readme) includes the supporting hardware-free regression harness and related neurotechnology work.
